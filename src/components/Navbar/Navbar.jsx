@@ -20,7 +20,7 @@ const Navbar = () => {
 
             <div className="logoDiv">
                 <a href="#" className="logo flex">
-                    <h1><  SlPlane className="icon"/>  HighFlyAlert.</h1>
+                    <h1><  SlPlane className="icon"/>  AeroAlarm.</h1>
                 </a>
             </div>
 
