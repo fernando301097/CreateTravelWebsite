@@ -28,35 +28,31 @@ const Navbar = () => {
                 <ul className="navList flex">
 
                     <li className="navItem">
+                        <a href="#" className="navLink"></a>
+                    </li>
+
+                    <li className="navItem">
                         <a href="#" className="navLink">Home</a>
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">Packages</a>
+                        <a href="#" className="navLink">Paquetes</a>
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">shop</a>
+                        <a href="#" className="navLink">Sobre Nosortos</a>
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">About</a>
+                        <a href="#" className="navLink">Ofertas</a>
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">Pages</a>
-                    </li>
-
-                    <li className="navItem">
-                        <a href="#" className="navLink">News</a>
-                    </li>
-
-                    <li className="navItem">
-                        <a href="#" className="navLink">Contact</a>
+                        <a href="#" className="navLink">Contactanos</a>
                     </li>
 
                     <button className="btn">
-                        <a href="#"> BOOK MOW</a>
+                        <a href="#"> Comprar Ahora</a>
                     </button>
                 </ul>
 
@@ -66,7 +62,7 @@ const Navbar = () => {
 
             </div>
 
-            <div onClick={showNav} className="toggleNavBar">
+            <div onClick={showNav} className="toggleNavbar">
                 <TbGridDots className="icon" />
             </div>
 
