@@ -10,6 +10,9 @@ const Navbar = () => {
   const showNav = ()=>{
     setActive("navBar activeNavbar")
   }
+  const removeNavbar = ()=>{
+    setActive("navBar")
+  }
 
   return (
     <section className='navBarSection'>
@@ -22,7 +25,7 @@ const Navbar = () => {
             </div>
 
             <div className={active}>
-                <ul className="navList grid">
+                <ul className="navList flex">
 
                     <li className="navItem">
                         <a href="#" className="navLink">Home</a>
@@ -57,13 +60,13 @@ const Navbar = () => {
                     </button>
                 </ul>
 
-                <div className="closeNavBar">
+                <div onClick={removeNavbar} className="closeNavBar">
                     <AiFillCloseCircle className="icon"/>
                 </div>
 
             </div>
 
-            <div className="toggleNavBar">
+            <div onClick={showNav} className="toggleNavBar">
                 <TbGridDots className="icon" />
             </div>
 
